@@ -1,0 +1,463 @@
+html {
+scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+#p1 {
+    background: green;
+    width: 100%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#p2 {
+    background-color: rgb(125, 125, 202);
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+
+#p3 {
+    background: rgba(255, 0, 0, 0.384);
+    width: 50%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#p4 {
+    background: aqua;
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#p5 {
+    background: aquamarine;
+    width: 33.3%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#p6 {
+    background: white;
+    width: 33.3%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#Rin1 {
+    background: plum;
+    width: 25%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#Rin2 {
+    background: peachpuff;
+    width: 25%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#Rin3 {
+    background: palevioletred;
+    width: 25%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#Rin4 {
+    background: pink;
+    width: 25%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#QR1 {
+    background: palegoldenrod;
+    width: 16.6%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#QR2 {
+    background: violet;
+    width: 16.6%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#QR3 {
+    background: pink;
+    width: 16.6%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#QR4 {
+    background: gray;
+    width: 16.6%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#QR5 {
+    background: blanchedalmond;
+    width: 16.6%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#QR6 {
+    background: red;
+    width: 16.6%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+#footer {
+    background: orange;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    QR1size: 50px;
+}
+@media only screen and (max-width: 600px) {
+#p1 {
+    
+}
+@media only screen and (max-width: 800px) {
+#p1 {
+width: 50%;
+float: right;
+text-align: center;
+padding: 200px 0;
+font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+#p1 {
+width: 100%;
+float: right;
+text-align: center;
+padding: 200px 0;
+font-size: 50px;
+}
+}
+}
+
+@media only screen and (max-width: 1000px) {
+#p2 {
+    width:100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+#p2 {
+width: 100%;
+float: right;
+text-align: center;
+padding: 200px 0;
+font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 1000px){
+#p3 {
+    width: 100%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+    #p3 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+
+
+@media only screen and (max-width: 800px){
+#p4 {
+    width: 100%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+    #p4 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+
+
+@media only screen and (max-width: 800px){
+#p5 {
+    width: 100%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+    #p5 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 800px){
+#p6 {
+    width: 100%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+    #p6 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 800px){
+#Rin1 {
+    width: 50%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+    #Rin1 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 800px){
+#Rin2 {
+    width: 50%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+    #Rin2 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 800px){
+#Rin3 {
+    width: 50%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+    #Rin3 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 800px){
+#Rin4 {
+    width: 50%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+#Rin4 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 800px){
+#QR1 {
+    width: 33.3%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+    #QR1 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+    
+}
+}
+
+@media only screen and (max-width: 800px){
+#QR2 {
+    width: 33.3%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+#QR2 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 800px){
+#QR3 {
+    width: 33.3%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+    background-color: red;
+}
+}
+@media only screen and (max-width: 500px) {
+#QR3 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 800px){
+#QR4 {
+    width: 33.3%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+#QR4 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 800px){
+#QR5 {
+    width: 33.3%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+#QR5 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 800px){
+#QR6 {
+    width: 33.3%;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+#QR6 {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 50px;
+}
+}
