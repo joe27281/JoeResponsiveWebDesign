@@ -164,6 +164,7 @@ li a:hover:not(.active) {
     padding: 100px 0;
     QR1size: 50px;
 }
+
 @media only screen and (max-width: 600px) {
 #p1 {
     
