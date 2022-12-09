@@ -1,3 +1,0 @@
-# JoeResponsiveWebDesign
- 
-HELLO MR!!
